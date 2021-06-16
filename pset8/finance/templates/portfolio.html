@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th style="text-align:left">Symbol</th>
+                <th style="text-align:left">Name</th>
+                <th style="text-align:left">Shares</th>
+                <th style="text-align:left">Price</th>
+                <th style="text-align:center">Actions</th>
+                <th style="text-align:center">TOTAL</th>
+            </tr>
+
+            <!-- Total money -->
+            <tr colspan="4">
+                <td colspan="5" style="text-align:left"></td>
+                <td>$10,000.00</td>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <!-- Total money remaining in cash -->
+            <tr>
+                <td colspan="5" style="text-align:left">CASH</td>
+                <td>{{ cash_remaining | usd }}</td>
+            </tr>
+        </tfoot>
+
+        <tbody>
+            {% for stock in stocks %}
+                <tr>
+                    <td>{{ stock.symbol }}</td>
+                    <td>{{ stock.total_shares }}</td>
+                    <td>{{ quotes[stock.symbol]["price"] | usd }}</td>
+                    <td>
+                        <form action="/buy" method="post">
+                            <input type="hidden" name="symbol" value="{{ stock.symbol }}"/>
+                            <input type="number" name="shares" min="1" placeholder="0" style="width: 50px" required />
+                            <button class="btn btn-sm btn-primary" type="submit">Buy</button>
+                        </form>
+
+                        <form action="/sell" method="post">
+                            <input type="hidden" name="symbol" value="{{ stock.symbol }}"/>
+                            <input type="number" name="shares" min="1" placeholder="0" style="width: 50px" required />
+                            <button class="btn btn-sm btn-danger" type="submit">Sell</button>
+                        </form>
+                    </td>
+                    <td>{{ (quotes[stock.symbol]["price"] * stock.total_shares) | usd }}</td>
+                </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+{% endblock %}

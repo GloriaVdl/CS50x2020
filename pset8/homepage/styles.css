@@ -1,0 +1,140 @@
+body {
+  background-color: lightblue;
+}
+
+.header{
+
+  background-color:white;
+  padding:1em;
+  height:100px;
+  width:100%;
+  display:flex;
+  position:relative;
+  align-items:center;
+
+}
+
+.menu {
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.index-page-main{
+  text-align:center;
+}
+
+.container-left{
+  background-color:white;
+  width: 20%;
+  float: left;
+  height:600px;
+}
+
+#me{
+  width:95%;
+  float: inherit;
+}
+
+.container-right{
+  background-color:white;
+  width: 20%;
+  height: 600px;
+  float: right;
+}
+
+.social{
+  float: inherit;
+  padding:30px;
+}
+
+.fa {
+  padding: 50px;
+  font-size: 30px;
+  width: 70%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  width: 50%;
+}
+
+.fa-linkedin{
+  background: #007bb5;
+  color: white;
+  width: 50%;
+}
+
+.page-main-left{
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+
+.page-main-right{
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+
+.page-1-main{
+  text-align:center;
+  margin-left:30px;
+}
+
+.container-center{
+  margin-left:20px;
+  text-align:center;
+}
+
+.whyCS{
+  text-align:center;
+
+}
+
+p {
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.button{
+    display: inline-block;
+    background-color: white;
+    border: none;
+    width: 200px;
+    color:black;
+    box-shadow: 0 2px 2px 2px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+
+.container{
+  position:inherit;
+  width:730px;
+}
+
+.form{
+  display:inline-block;
+  text-align:center;
+}
+
+#subject{
+  resize:horizontal;
+}
+
+.thanks{
+  text-align:center;
+}
