@@ -1,4 +1,7 @@
 # Program that prompts a list of students for a given house in alphabetical order
+# Author: Gloria Videloup
+# CS50x2020
+
 from cs50 import SQL
 from sys import argv
 
