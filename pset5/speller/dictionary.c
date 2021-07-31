@@ -1,3 +1,8 @@
+/*
+* Author: Gloria Videloup
+* CS50x2020
+*/
+
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
