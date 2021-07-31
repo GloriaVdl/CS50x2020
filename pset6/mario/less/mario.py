@@ -1,4 +1,7 @@
 # Program that prints half of Mario's pyramid
+# Author: Gloria Videloup
+# CS50x2020
+
 from cs50 import get_int
 
 while True:
