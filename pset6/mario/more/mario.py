@@ -1,4 +1,7 @@
 # Program that prints Mario's pyramid with a space in the middle
+# Author: Gloria Videloup
+# CS50x2020
+
 from cs50 import get_int
 
 def main():
