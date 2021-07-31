@@ -1,4 +1,8 @@
 # Program that says how many coins should be used to give back change.
+# Author: Gloria Videloup
+# CS50x2020
+
+
 from cs50 import get_float
 from math import floor
 
