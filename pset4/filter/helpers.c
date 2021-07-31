@@ -1,3 +1,8 @@
+/*
+* Author: Gloria Videloup
+* CS50x2020
+*/
+
 #include "helpers.h"
 #include <math.h>
 
