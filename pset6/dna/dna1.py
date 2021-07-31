@@ -5,6 +5,9 @@
 # The program should require the name of a CSV file containing the STR counts for a list of individuals and should require as its
 # second command-line argument the name of a text file containing the DNA sequence.
 # So something such as : "python dna.py databases/large.csv sequences/5.txt"
+# Author: Gloria Videloup
+# CS50x2020
+
 
 from csv import reader, DictReader
 from sys import argv
