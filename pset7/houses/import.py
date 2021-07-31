@@ -1,4 +1,7 @@
 # Program that imports data from a csv file
+# Author: Gloria Videloup
+# CS50x2020
+
 from cs50 import SQL
 from csv import reader
 from sys import argv
