@@ -1,3 +1,7 @@
+# Author: Gloria Videloup
+# CS50x2020
+
+
 import csv
 import os
 import urllib.request
