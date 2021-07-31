@@ -1,3 +1,8 @@
+/* 
+* @author: Gloria Videloup 
+* CS50x2020
+*/
+
 #include <stdio.h>
 #include <cs50.h>
 
