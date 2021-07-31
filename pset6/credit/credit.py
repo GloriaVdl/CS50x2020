@@ -1,4 +1,6 @@
 # Program that prompts the user for a credit card number and reports which type it is.
+# Author: Gloria Videloup
+# CS50x2020
 
 from cs50 import get_int
 from math import floor
