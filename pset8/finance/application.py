@@ -1,3 +1,6 @@
+# Author: Gloria Videloup
+# CS50x2020
+
 from cs50 import SQL
 from flask import Flask, flash, redirect, render_template, request, session, url_for
 from flask_session import Session
