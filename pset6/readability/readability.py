@@ -1,4 +1,7 @@
 # Program that evaluates the grade level of a text
+# Author: Gloria Videloup
+# CS50x2020
+
 from cs50 import get_string
 # Let us initialize the variables
 letter = 0
