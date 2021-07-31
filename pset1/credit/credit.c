@@ -1,5 +1,5 @@
 /* 
-* @author: Gloria Videloup 
+* Author: Gloria Videloup 
 * CS50x2020
 */
 
